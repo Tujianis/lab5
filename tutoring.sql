@@ -1,3 +1,6 @@
+
+
+
 CREATE TABLE if not exists students (
   student_id INTEGER PRIMARY KEY,
   student_name TEXT NOT NULL,
@@ -16,7 +19,7 @@ CREATE TABLE if not exists tutoring_requests (
   FOREIGN KEY (student_id) REFERENCES students(student_id)
 );
 
-/*INSERT OR ignore INTO students (student_name, student_email)
+INSERT OR ignore INTO students (student_name, student_email)
 VALUES ('Maria Lopez', 'maria.lopez@example.com');
 
 INSERT OR ignore INTO students (student_name, student_email)
@@ -45,7 +48,7 @@ VALUES
 VALUES
   (3, 'IS 6465', 'SQLite CRUD', '2026-11-06', '16:00'); */
 
-/* select * from students;
+select * from students;
 
 select * from tutoring_requests;
 
@@ -72,7 +75,7 @@ select * from tutoring_requests where request_id = 3;
 
 select * from tutoring_requests where request_id = 5;
 
-*/
+
 
   INSERT OR ignore INTO tutoring_requests
   (student_id, course, topic, preferred_date, preferred_time)

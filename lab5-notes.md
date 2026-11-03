@@ -1,3 +1,6 @@
+https://glowing-train-95qp4p46x55cp4r7.github.dev/
+https://github.com/Tujianis/lab5
+
 Part 1: 1) ![alt text](image.png)
 
 2) The 'student_id' column is PK in the student table. The 'request_id' column is the PK in the tutoring_requests table.
